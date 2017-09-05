@@ -1,0 +1,3 @@
+unique(X,L) :-
+    select(X,L,R), %True when list L with X removed results in R.
+    not(member(X,R)). %True if X is not member of R.

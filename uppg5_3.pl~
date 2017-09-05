@@ -1,0 +1,16 @@
+%nonterminaler
+s --> a,b.
+s --> a,s,b.
+
+%terminaler
+a --> [a].
+b --> [b].
+
+
+% nonterminaler
+s1 --> [].
+s1 --> a1,s1,b1,b1.
+
+% terminaler
+a --> [a].
+b --> [b].
